@@ -43,7 +43,7 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 
 ### Backend
 
-- **Java:** Recomendado Java 17 ou superior (verifique a versão utilizada no desenvolvimento do `.jar`)
+- **Java:** Recomendado Java 17 ou superior
 - **Arquivo:** `pl.jar` (localizado em `/executavel`)
 
 > **Atenção:** O frontend foi desenvolvido e testado com Node.js na versão 18.x. Versões superiores podem causar incompatibilidades, especialmente com dependências do React Scripts.
