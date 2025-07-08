@@ -5,7 +5,7 @@
 Este projeto é composto por dois módulos principais: um **frontend** desenvolvido em React e um **backend** Java distribuído como um arquivo `.jar`. O frontend utiliza TypeScript, Bootstrap e bibliotecas modernas de testes, enquanto o backend deve ser executado separadamente para garantir o funcionamento completo da aplicação.
 
 ## Estrutura do Repositório
-
+```
 /
 ├── executavel/
 │   └── pl.jar
@@ -17,6 +17,7 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 │   └── ...
 ├── README.md
 └── ...
+```
 
 ## Versões Importantes Utilizadas
 
