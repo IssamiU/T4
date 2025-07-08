@@ -25,7 +25,7 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 
 | Dependência                    | Versão             |
 |--------------------------------|--------------------|
-| Node.js                        | 16.x (recomendado) |
+| Node.js                        | 16.x (obrigatório) |
 | React                          | ^19.1.0            |
 | React DOM                      | ^19.1.0            |
 | React Scripts                  | 5.0.1              |
@@ -59,7 +59,7 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 ### 1. Clone o repositório:
 
 ```
-git clone <https://github.com/IssamiU/T4>
+git clone https://github.com/IssamiU/T4
 ```
 
 ### 2. Instale as dependências do frontend:
