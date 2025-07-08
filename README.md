@@ -57,13 +57,17 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 ## Instalação
 
 ### 1. Clone o repositório:
-git clone <URL-do-repositório>
 
+```
+git clone <https://github.com/IssamiU/T4>
+```
 
 ### 2. Instale as dependências do frontend:
+
+```
 cd frontend-atviv
 npm install
-
+```
 
 ## Como Rodar o Projeto
 
@@ -71,9 +75,10 @@ npm install
 
 Abra um terminal na pasta `executavel` e execute:
 
+```
 cd executavel
 java -jar pl.jar
-
+```
 
 O backend estará rodando e aguardando as requisições do frontend.
 
@@ -81,9 +86,10 @@ O backend estará rodando e aguardando as requisições do frontend.
 
 Abra outro terminal na pasta `frontend-atviv` e execute:
 
+```
 cd frontend-atviv
 npm start
-
+```
 
 ## Observações Importantes
 
