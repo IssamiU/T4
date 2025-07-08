@@ -6,6 +6,17 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 
 ## Estrutura do Repositório
 
+/
+├── executavel/
+│   └── pl.jar
+├── frontend-atviv/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── ...
+├── README.md
+└── ...
 
 ## Versões Importantes Utilizadas
 
