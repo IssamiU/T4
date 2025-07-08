@@ -25,7 +25,7 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 
 | Dependência                    | Versão             |
 |--------------------------------|--------------------|
-| Node.js                        | 16.x (obrigatório) |
+| Node.js                        | 18.x (obrigatório) |
 | React                          | ^19.1.0            |
 | React DOM                      | ^19.1.0            |
 | React Scripts                  | 5.0.1              |
@@ -46,12 +46,12 @@ Este projeto é composto por dois módulos principais: um **frontend** desenvolv
 - **Java:** Recomendado Java 17 ou superior (verifique a versão utilizada no desenvolvimento do `.jar`)
 - **Arquivo:** `pl.jar` (localizado em `/executavel`)
 
-> **Atenção:** O frontend foi desenvolvido e testado com Node.js na versão 16.x. Versões superiores podem causar incompatibilidades, especialmente com dependências do React Scripts.
+> **Atenção:** O frontend foi desenvolvido e testado com Node.js na versão 18.x. Versões superiores podem causar incompatibilidades, especialmente com dependências do React Scripts.
 
 ## Pré-requisitos
 
-- **Node.js:** Versão 16.x (obrigatório para o frontend)
-- **npm:** Compatível com Node 16.x
+- **Node.js:** Versão 18.x (obrigatório para o frontend)
+- **npm:** Compatível com Node 18.x
 - **Java:** Versão 17 ou superior (para executar o backend `.jar`)
 
 ## Instalação
@@ -94,7 +94,7 @@ npm start
 ## Observações Importantes
 
 - Certifique-se de que o backend esteja rodando antes de iniciar o frontend, pois a comunicação entre ambos é essencial para o funcionamento da aplicação.
-- Caso utilize uma versão diferente da 16.x do Node.js, podem ocorrer erros de incompatibilidade.
+- Caso utilize uma versão diferente da 18.x do Node.js, podem ocorrer erros de incompatibilidade.
 
 
 
