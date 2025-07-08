@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# T4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+Este projeto é composto por dois módulos principais: um **frontend** desenvolvido em React e um **backend** Java distribuído como um arquivo `.jar`. O frontend utiliza TypeScript, Bootstrap e bibliotecas modernas de testes, enquanto o backend deve ser executado separadamente para garantir o funcionamento completo da aplicação.
 
-In the project directory, you can run:
+## Estrutura do Repositório
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Versões Importantes Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Frontend
 
-### `npm test`
+| Dependência                    | Versão             |
+|--------------------------------|--------------------|
+| Node.js                        | 16.x (recomendado) |
+| React                          | ^19.1.0            |
+| React DOM                      | ^19.1.0            |
+| React Scripts                  | 5.0.1              |
+| TypeScript                     | ^4.9.5             |
+| Bootstrap                      | ^5.3.7             |
+| @testing-library/react         | ^16.3.0            |
+| @testing-library/jest-dom      | ^6.6.3             |
+| @testing-library/user-event    | ^13.5.0            |
+| @testing-library/dom           | ^10.4.0            |
+| @types/react                   | ^19.1.8            |
+| @types/react-dom               | ^19.1.6            |
+| @types/jest                    | ^27.5.2            |
+| @types/node                    | ^16.18.126         |
+| web-vitals                     | ^2.1.4             |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+- **Java:** Recomendado Java 17 ou superior (verifique a versão utilizada no desenvolvimento do `.jar`)
+- **Arquivo:** `pl.jar` (localizado em `/executavel`)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Atenção:** O frontend foi desenvolvido e testado com Node.js na versão 16.x. Versões superiores podem causar incompatibilidades, especialmente com dependências do React Scripts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js:** Versão 16.x (obrigatório para o frontend)
+- **npm:** Compatível com Node 16.x
+- **Java:** Versão 17 ou superior (para executar o backend `.jar`)
 
-### `npm run eject`
+## Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 1. Clone o repositório:
+git clone <URL-do-repositório>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 2. Instale as dependências do frontend:
+cd frontend-atviv
+npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Como Rodar o Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Inicie o backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abra um terminal na pasta `executavel` e execute:
+
+cd executavel
+java -jar pl.jar
+
+
+O backend estará rodando e aguardando as requisições do frontend.
+
+### 2. Inicie o frontend
+
+Abra outro terminal na pasta `frontend-atviv` e execute:
+
+cd frontend-atviv
+npm start
+
+
+## Observações Importantes
+
+- Certifique-se de que o backend esteja rodando antes de iniciar o frontend, pois a comunicação entre ambos é essencial para o funcionamento da aplicação.
+- Caso utilize uma versão diferente da 16.x do Node.js, podem ocorrer erros de incompatibilidade.
+
+
+
+
+
+
+
+
